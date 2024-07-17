@@ -1,0 +1,111 @@
+:root{
+   --almond:#f1dac4;
+   --rose:#a69cac;
+   --violet:#474973;
+   --blue:#152264;
+   --black:#0d0c1d;
+
+}
+/*THIS IS A COMENT AREA/*
+/*
+ALMOND #f1dac4
+ROSE QUARTZ #a69cac
+ULTRA VIOLET #474973
+OXFORD BLUE #161b33
+RICH BLACK #0d0c1d
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.exo-2-<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+body,
+html{
+   background-color: var(--almond) !important;
+   
+}
+header{
+  width: 80%;
+  margin: 0 auto;
+  
+
+}
+#img-cont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#logofinal{
+      width: 350px;
+      display:block;
+      margin-bottom:1em;
+}
+
+#main_title{
+ color:var(--black);
+ font-family: "Exo 2", sans-serif;
+  font-weight: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+#my_pic {
+  width: 300px;
+  display: block;
+  margin:auto;
+
+}
+
+#logo-head {
+  height: 60px;
+}
+
+
+#main_box p{
+  color: #161b33;
+  font-family:"Exo 2", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+footer{
+  margin-top: 50px;
+  color: var(--black);
+  font-family:"Exo 2", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+ul{
+  text-align: center;
+}
+
+li{
+  display: table-cell;
+  width: 10em;
+
+}
+
+#button{
+  font-family:"Exo 2", sans-serif;
+  background-color: var(--violet);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+
+}
+
+#button:hover{
+  background-color: #555;
+}
+
+.bg-body-tertiary{
+  background-color: #A5C4D4 !important;
+}
